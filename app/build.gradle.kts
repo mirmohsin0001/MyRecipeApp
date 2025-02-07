@@ -41,6 +41,7 @@ android {
 
 dependencies {
     implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.coil.compose) // Use the latest version
     implementation(libs.retrofit)
     implementation(libs.retrofit2.converter.gson.v290)
 
