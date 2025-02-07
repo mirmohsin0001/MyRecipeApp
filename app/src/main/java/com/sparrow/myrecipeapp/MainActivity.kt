@@ -21,15 +21,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyRecipeAppTheme {
                 Surface {
-                    Greeting()
+                    RecipeScreen()
                 }
             }
         }
     }
-}
-
-
-@Composable
-fun Greeting() {
-    Text("bj")
 }
